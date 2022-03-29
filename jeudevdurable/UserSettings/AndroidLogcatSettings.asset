@@ -1,13 +1,62 @@
 {
-    "m_SelectedDeviceId": "",
+    "m_SelectedDeviceId": "66895b05",
     "m_SelectedPackage": {
-        "deviceId": "",
-        "name": "",
-        "processId": 0,
+        "deviceId": "66895b05",
+        "name": "com.DefaultCompany.com.unity.template.mobile2D",
+        "processId": 28348,
         "exited": false
     },
     "m_SelectedPriority": 0,
-    "m_KnownPackagesForSerialization": [],
+    "m_KnownPackagesForSerialization": [
+        {
+            "deviceId": "66895b05",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 25187,
+            "exited": false
+        },
+        {
+            "deviceId": "66895b05",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 25667,
+            "exited": false
+        },
+        {
+            "deviceId": "66895b05",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 26478,
+            "exited": false
+        },
+        {
+            "deviceId": "66895b05",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 26757,
+            "exited": false
+        },
+        {
+            "deviceId": "66895b05",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 27309,
+            "exited": false
+        },
+        {
+            "deviceId": "66895b05",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 27813,
+            "exited": false
+        },
+        {
+            "deviceId": "66895b05",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 28105,
+            "exited": false
+        },
+        {
+            "deviceId": "66895b05",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 28348,
+            "exited": false
+        }
+    ],
     "m_Tags": {
         "m_Entries": [
             {
@@ -41,9 +90,20 @@
         ]
     },
     "m_MemoryViewerState": {
-        "MemoryWindowHeight": 0.0,
-        "MemoryWindowWidth": 0.0,
-        "MemoryTypeEnabled": [],
+        "MemoryWindowHeight": 300.0,
+        "MemoryWindowWidth": 170.0,
+        "MemoryTypeEnabled": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+        ],
         "MemoryGroup": 2,
         "Behavior": 0
     },
