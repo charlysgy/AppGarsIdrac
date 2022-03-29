@@ -1,23 +1,39 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MenuScript : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    private AudioSource ac;
+    public bool music;
+
+    private void Start()
     {
-        
+        ac = GetComponent<AudioSource>();
+        music = false;
     }
 
-    // Update is called once per frame
-    void Update()
+    public void OnClickMusicOff()
     {
-        
+        ac.Pause();
     }
 
-    void OnClick()
+    public void OnClickMusicOn()
     {
-       
+        ac.Play();
+    }
+
+    public void OnClickGameOne()
+    {
+        SceneManager.LoadScene("Game1");
+    }
+    public void OnClickGameTwo()
+    {
+        SceneManager.LoadScene("Game2");
+    }
+    public void OnClickExit()
+    {
+        Application.Quit();
     }
 }
