@@ -4,9 +4,14 @@ using UnityEngine;
 
 public class BinMovements : MonoBehaviour
 {
-    [SerializeField] Rigidbody rb;
+    private Rigidbody rb;
     private float screenWidth = Screen.width;
-    private float moveSpeed = 300;
+    private float moveSpeed = 150;
+
+    private void Start()
+    {
+        rb = GetComponent<Rigidbody>();
+    }
 
     private void Update()
     {
@@ -53,7 +58,7 @@ public class BinMovements : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag == "recyclable")
-        {
+        { 
             // incrémente compteur de 1 pt
         }
         else
