@@ -10,7 +10,10 @@ public class BinMovements : MonoBehaviour
 
     private void Update()
     {
-        Vector3 screenPos = Camera.main.WorldToScreenPoint(transform.position);
+        // get position of the bin
+        Vector3 binPos = Camera.main.WorldToScreenPoint(transform.position);
+
+        //get input
         int i = 0;
         while (i < Input.touchCount)
         {
@@ -26,13 +29,15 @@ public class BinMovements : MonoBehaviour
             }
             i++;
         }
-        if (screenPos.x < 50)
+
+        // check if bin is outside of screenWidth
+        if (binPos.x < 50)
         {
             transform.position = new Vector3(-2, 1, 0);
             rb.velocity = Vector3.zero;
         }
 
-        else if (screenPos.x > screenWidth - 50)
+        else if (binPos.x > screenWidth - 50)
         {
             transform.position = new Vector3(2, 1, 0);
             rb.velocity = Vector3.zero;
