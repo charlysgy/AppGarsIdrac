@@ -6,22 +6,42 @@ using UnityEngine.SceneManagement;
 public class MenuScript : MonoBehaviour
 {
     private AudioSource ac;
-    public bool music;
+    public bool music = true;
+    private GameObject[] acS;
+
+    private void Awake()
+    {
+        DontDestroyOnLoad(this);
+    }
 
     private void Start()
     {
+        acS = GameObject.FindGameObjectsWithTag("MainCamera");
+        if (acS.Length > 1)
+        {
+            Destroy(this.gameObject);
+        }
+
         ac = GetComponent<AudioSource>();
-        music = false;
+        if (music)
+        {
+            ac.Play();
+        }
     }
 
     public void OnClickMusicOff()
     {
+        music = false;
         ac.Pause();
     }
 
     public void OnClickMusicOn()
     {
-        ac.Play();
+        if (!music)
+        {
+            music = true;
+            ac.Play();
+        }
     }
 
     public void OnClickGameOne()

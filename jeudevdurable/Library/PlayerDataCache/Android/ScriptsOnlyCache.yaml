@@ -26,6 +26,8 @@ ScriptsOnlyBuild:
     - UnityEditor.Tilemaps.SceneViewOpenTilePaletteHelper
     - UnityEditor.Tilemaps.TileDragAndDropManager
     - UnityEditor.Tilemaps.TilemapPrefabStageHelper
+    Unity.Mobile.AndroidLogcat.Editor.dll:
+    - Unity.Android.Logcat.AndroidLogcatManager
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     UnityEditor.TestRunner.dll:
@@ -47,8 +49,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 4
       Script: {instanceID: 0}
-    - Class: 20
-      Script: {instanceID: 0}
     - Class: 21
       Script: {instanceID: 0}
     - Class: 28
@@ -59,44 +59,38 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
-    - Class: 81
-      Script: {instanceID: 0}
-    - Class: 82
-      Script: {instanceID: 0}
-    - Class: 83
-      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1544}
+      Script: {instanceID: 1568}
     - Class: 114
-      Script: {instanceID: 2240}
+      Script: {instanceID: 2264}
     - Class: 114
-      Script: {instanceID: 2320}
+      Script: {instanceID: 2344}
     - Class: 114
-      Script: {instanceID: 2506}
+      Script: {instanceID: 2530}
     - Class: 114
-      Script: {instanceID: 2764}
-    - Class: 114
-      Script: {instanceID: 2924}
+      Script: {instanceID: 2788}
     - Class: 114
       Script: {instanceID: 2948}
     - Class: 114
-      Script: {instanceID: 3208}
+      Script: {instanceID: 2972}
     - Class: 114
-      Script: {instanceID: 3470}
+      Script: {instanceID: 3232}
     - Class: 114
-      Script: {instanceID: 3594}
+      Script: {instanceID: 3494}
     - Class: 114
-      Script: {instanceID: 3924}
+      Script: {instanceID: 3618}
     - Class: 114
-      Script: {instanceID: 5156}
+      Script: {instanceID: 3948}
     - Class: 114
-      Script: {instanceID: 5198}
+      Script: {instanceID: 3966}
     - Class: 114
-      Script: {instanceID: 5316}
+      Script: {instanceID: 5182}
     - Class: 114
-      Script: {instanceID: 31358}
+      Script: {instanceID: 5224}
+    - Class: 114
+      Script: {instanceID: 5342}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -120,8 +114,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 4
       Script: {instanceID: 0}
-    - Class: 20
-      Script: {instanceID: 0}
     - Class: 21
       Script: {instanceID: 0}
     - Class: 28
@@ -132,40 +124,34 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
-    - Class: 81
-      Script: {instanceID: 0}
-    - Class: 82
-      Script: {instanceID: 0}
-    - Class: 83
-      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1544}
+      Script: {instanceID: 1568}
     - Class: 114
-      Script: {instanceID: 1862}
+      Script: {instanceID: 1886}
     - Class: 114
-      Script: {instanceID: 2320}
+      Script: {instanceID: 2344}
     - Class: 114
-      Script: {instanceID: 2494}
+      Script: {instanceID: 2518}
     - Class: 114
-      Script: {instanceID: 2506}
+      Script: {instanceID: 2530}
     - Class: 114
-      Script: {instanceID: 2764}
+      Script: {instanceID: 2788}
     - Class: 114
-      Script: {instanceID: 2948}
+      Script: {instanceID: 2972}
     - Class: 114
-      Script: {instanceID: 3128}
+      Script: {instanceID: 3152}
     - Class: 114
-      Script: {instanceID: 3208}
+      Script: {instanceID: 3232}
     - Class: 114
-      Script: {instanceID: 3470}
+      Script: {instanceID: 3494}
     - Class: 114
-      Script: {instanceID: 3594}
+      Script: {instanceID: 3618}
     - Class: 114
-      Script: {instanceID: 3636}
+      Script: {instanceID: 3660}
     - Class: 114
-      Script: {instanceID: 5316}
+      Script: {instanceID: 5342}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -206,21 +192,21 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1544}
+      Script: {instanceID: 1568}
     - Class: 114
-      Script: {instanceID: 2320}
+      Script: {instanceID: 2344}
     - Class: 114
-      Script: {instanceID: 2764}
+      Script: {instanceID: 2788}
     - Class: 114
-      Script: {instanceID: 2772}
+      Script: {instanceID: 2796}
     - Class: 114
-      Script: {instanceID: 2948}
+      Script: {instanceID: 2972}
     - Class: 114
-      Script: {instanceID: 3208}
+      Script: {instanceID: 3232}
     - Class: 114
-      Script: {instanceID: 3470}
+      Script: {instanceID: 3494}
     - Class: 114
-      Script: {instanceID: 3594}
+      Script: {instanceID: 3618}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -564,6 +550,12 @@ ScriptsOnlyBuild:
     className: Outline
   - hash:
       serializedVersion: 2
+      Hash: 123409689e83e7f2aa6a9bde4587c875
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DeathZone
+  - hash:
+      serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -820,15 +812,9 @@ ScriptsOnlyBuild:
     assemblyName: Unity.2D.IK.Runtime.dll
     namespaceName: UnityEngine.U2D.IK
     className: FabrikSolver2D
-  - hash:
-      serializedVersion: 2
-      Hash: 123409689e83e7f2aa6a9bde4587c875
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: DeathZone
   platform: 13
   scenePathNames:
   - Assets/Scenes/Menu.unity
   - Assets/Scenes/Game1.unity
   - Assets/Scenes/Game2.unity
-  playerPath: C:/Users/charl/Desktop/JeuDevDurable/AppGarsIdrac/jeudevdurable/JetteLeOuTriLe.apk
+  playerPath: C:/Users/lesec/Desktop/AppGarsIdrac/exe/test_1.apk

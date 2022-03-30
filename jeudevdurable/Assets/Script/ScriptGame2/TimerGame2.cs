@@ -38,7 +38,7 @@ public class TimerGame2 : MonoBehaviour
         var seconds = time % 60;
 
         // print timer
-        timerText.text = (System.Math.Round(seconds, 2) + " s");
+        timerText.text = (System.Math.Round(seconds, 1) + " s");
         ScoreText.text = (score + " / 5");
     }
 }

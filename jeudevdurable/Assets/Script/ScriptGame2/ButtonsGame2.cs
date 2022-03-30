@@ -5,8 +5,15 @@ using UnityEngine.SceneManagement;
 
 public class ButtonsGame2 : MonoBehaviour
 {
+    private GameObject mainCamera;
+
+    private void Start()
+    {
+        mainCamera = GameObject.FindGameObjectWithTag("MainCamera");
+    }
     public void OnClickBackMenu()
     {
+        Destroy(mainCamera);
         SceneManager.LoadScene("Menu");
     }
     public void OnClickRestart()
