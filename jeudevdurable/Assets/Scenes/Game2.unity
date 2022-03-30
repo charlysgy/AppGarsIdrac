@@ -643,8 +643,8 @@ GameObject:
   - component: {fileID: 737179940}
   - component: {fileID: 737179941}
   m_Layer: 0
-  m_Name: Greenbin
-  m_TagString: green
+  m_Name: BlackBin
+  m_TagString: black
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -689,7 +689,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: -1
-  m_Sprite: {fileID: 21300000, guid: 96a8234d153fd6949970065abb9440b9, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e7e803c6c94a879449edb987f78592bf, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -709,7 +709,7 @@ Transform:
   m_GameObject: {fileID: 737179937}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.25, y: 2.742, z: 0}
-  m_LocalScale: {x: 0.2, y: 0.2, z: 1}
+  m_LocalScale: {x: 0.6, y: 0.6, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
@@ -967,6 +967,7 @@ GameObject:
   - component: {fileID: 1091868998}
   - component: {fileID: 1091868997}
   - component: {fileID: 1091868996}
+  - component: {fileID: 1091868999}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1039,6 +1040,102 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &1091868999
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1091868995}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 1ccd10a40ce7bf34b9f204a0fa5ee8c8, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1098089826
 GameObject:
   m_ObjectHideFlags: 0
@@ -2053,6 +2150,14 @@ MonoBehaviour:
   gameObjects:
   - {fileID: 4875968773735684632, guid: 30a05b8265f8e3047bebecf0672b1145, type: 3}
   - {fileID: 2831525612343944208, guid: 4791271a6fcd200488d75f742d28131d, type: 3}
+  - {fileID: 5801277337251029104, guid: faa8246d5db01ef4fba0149625d09a52, type: 3}
+  - {fileID: 3547756317486741991, guid: 318d1cba240738c48b43db3dea986651, type: 3}
+  - {fileID: 8124554111903570679, guid: 63e847e850c16544ab7a2b2e316bf6ab, type: 3}
+  - {fileID: 4454082078324582517, guid: feda5e5729b184946bfe2f1193aacc48, type: 3}
+  - {fileID: 8476504141104510760, guid: a3f263226d3c98749817f45c8c4528da, type: 3}
+  - {fileID: 5596271885472110226, guid: d2fdabb239147d945b55201fa789bbcf, type: 3}
+  - {fileID: 7523691370519746722, guid: ebb3bc56b5fe1044aa66755d0c4786d7, type: 3}
+  - {fileID: 1680570640850946524, guid: 1c845f4028080eb48872d27154000c50, type: 3}
 --- !u!4 &2108145902
 Transform:
   m_ObjectHideFlags: 0

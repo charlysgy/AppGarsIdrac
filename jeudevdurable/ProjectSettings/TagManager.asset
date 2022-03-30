@@ -5,8 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - recyclable
-  - green
   - yellow
+  - unrecyclable
+  - black
   layers:
   - Default
   - TransparentFX

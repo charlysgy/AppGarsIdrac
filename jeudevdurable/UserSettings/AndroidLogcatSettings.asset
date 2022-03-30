@@ -1,9 +1,9 @@
 {
-    "m_SelectedDeviceId": "66895b05",
+    "m_SelectedDeviceId": "RF8R423H1GT",
     "m_SelectedPackage": {
-        "deviceId": "66895b05",
+        "deviceId": "RF8R423H1GT",
         "name": "com.DefaultCompany.com.unity.template.mobile2D",
-        "processId": 26467,
+        "processId": 13180,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -126,6 +126,72 @@
             "deviceId": "66895b05",
             "name": "com.DefaultCompany.com.unity.template.mobile2D",
             "processId": 26467,
+            "exited": false
+        },
+        {
+            "deviceId": "RF8R423H1GT",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 8714,
+            "exited": false
+        },
+        {
+            "deviceId": "RF8R423H1GT",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 26571,
+            "exited": false
+        },
+        {
+            "deviceId": "RF8R423H1GT",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 15728,
+            "exited": false
+        },
+        {
+            "deviceId": "RF8R423H1GT",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 17646,
+            "exited": false
+        },
+        {
+            "deviceId": "RF8R423H1GT",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 19758,
+            "exited": false
+        },
+        {
+            "deviceId": "RF8R423H1GT",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 29013,
+            "exited": false
+        },
+        {
+            "deviceId": "RF8R423H1GT",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 1193,
+            "exited": false
+        },
+        {
+            "deviceId": "RF8R423H1GT",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 6028,
+            "exited": false
+        },
+        {
+            "deviceId": "RF8R423H1GT",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 6174,
+            "exited": false
+        },
+        {
+            "deviceId": "RF8R423H1GT",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 8431,
+            "exited": false
+        },
+        {
+            "deviceId": "RF8R423H1GT",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 13180,
             "exited": false
         }
     ],
